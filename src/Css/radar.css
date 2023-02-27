@@ -1,0 +1,15 @@
+.radarArea{
+    position: absolute;
+    width: 520px;
+    height: 430px;
+    top:370px;
+    left: 670px;
+    border: 1px solid blanchedalmond;
+    background-color: azure;
+    border-radius: 30px;
+    
+}
+text{
+    font-size: 16px !important;
+    
+}

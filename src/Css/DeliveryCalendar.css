@@ -1,0 +1,48 @@
+.react-calendar{
+    width: 95vw !important;
+    height: 800px;
+}
+.react-calendar__viewContainer{
+    width: 65vw;
+    height: 740px;
+}
+.react-calendar__month-view{
+    width: 65vw;
+    height: 740px;
+}
+.react-calendar__month-view__days{
+    width: 65vw;
+    height: 690px;
+}
+abbr{
+    vertical-align: 75px;
+    
+}
+.react-calendar__month-view__weekdays{
+    height: 30px;
+    font-size: 21px !important;
+}
+.react-calendar__navigation__label__labelText{
+font-size: 30px;
+}
+.react-calendar__year-view__months__month{
+    font-size: 23px;
+}
+.react-calendar__decade-view__years__year{
+    font-size: 42px;
+}
+.react-calendar__century-view__decades__decade{
+    font-size: 42px;
+}
+.dot {
+    height: 15px;
+    width: 100%;
+    background-color: #f87171;
+    border-radius: 30px;
+    display: flex;
+    margin-left: 1px;
+    padding-left: 40px;
+  }
+  .highlight {
+    background: #f3a95f;
+  }

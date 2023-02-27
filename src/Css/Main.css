@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    overflow-y: hidden;
+  }
+.outer::-webkit-scrollbar {
+    display: none;
+}
+  
+  .outer {
+    height: 1200px;
+    overflow-y: auto;
+    max-height: 825px;
+    position: relative;
+    top: 98px;
+    background-color: rgb(152, 251, 152,0.2);
+  }
+  .inner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+  
+.divider {
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+  }
+
+  .topBtn {
+    position: fixed; 
+    bottom: 10px; 
+    right: 40px;
+    width: 60px; 
+    height: 60px;
+    cursor: pointer;
+    z-index: 1;
+  }
+ .rightbtns{
+  position: fixed;
+  top:390px;
+  
+  z-index: 2;
+  right: 60px; 
+
+ }
+ @keyframes slide {
+  0% {
+   right: 0;
+   
+  }
+  50% {
+   right: 20px;
+   
+  }
+  100% {
+   right: 0;
+   
+  }
+}
+ .main_btn:hover,
+ .second_btn:hover,
+ .third_btn:hover  {
+  animation-name: slide; 
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-in-out;
+  animation-delay: .1s; 
+  animation-iteration-count: infinite;
+ }
+.second_btn{
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+ .scrollBtn{
+  box-shadow: 6px 13px 6px -7px #276873;
+background:rgb(148, 250, 148);
+border-radius:22px;
+border:2px solid #4f7e9e;
+cursor:pointer;
+color:black;
+font-family:Arial;
+font-size:25px;
+font-weight:bold;
+text-decoration:none;
+text-shadow:1px 0px 0px #31a5cc;
+width: 250px;
+height: 230px;
+position: relative;
+bottom: 350px;
+text-align: center;
+margin-bottom: 30px;
+padding-top: 5.0rem;
+padding-right: 60px;
+}
+.scrollBtn:hover{
+background: #31a5cc;
+
+}
+.loginstateText{
+  position: absolute;
+  top:37vh;
+  left:10vw;
+  z-index: 2;
+  font-size: 80px;
+  width: 1600px;
+  height: 500px;
+  text-align: center;
+  
+  
+}
+.hereimg{
+  bottom: 180px;
+  left: 1010px;
+  width: 150px;
+  height: 190px;
+  animation-name: slide2; 
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-in-out;
+  animation-delay: .1s; 
+  animation-iteration-count: infinite;
+}
+@keyframes slide2 {
+  0% {
+   bottom: 180px;
+   
+  }
+  50% {
+    bottom: 220px;
+   
+  }
+  100% {
+    bottom: 180px;
+   
+  }
+}
